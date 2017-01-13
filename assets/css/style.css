@@ -1,0 +1,82 @@
+
+
+/**
+COMMENT
+*/
+
+/**  Title  */
+* {
+	font-family: 'EB Garamond', serif;
+	}
+
+.name {
+	color:white;
+	background:blue; 
+	text-align: center;
+	width:100%;
+  }
+
+.image{
+  /*background-image: url("../img/background.jpg");*/
+  /*background-repeat: no-repeat;*/
+  /*background-size: 100% 100%;*/
+  max-width: 100%;
+  height: auto;
+  /*width: auto\9;*/
+}
+.bar {
+	font-size: 100%;
+	background:gray; 
+	text-align: center;
+	width:100%;
+  }
+
+.bio {
+	color: black;
+	background:solid white; 
+	width:100%;
+  }
+
+.project {
+  color: black;
+  background:solid white; 
+  width:100%;
+  }
+
+.image { 
+   position: relative; 
+   width: 100%; /* for IE 6 */
+  }
+
+.title { 
+   position: absolute; 
+   top: 300px; 
+   left: 40px; 
+   width: 100%; 
+}
+.second{
+  font-size:22px;
+  background: green;
+}
+ul {
+    float: left;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+a {
+    float: left;
+    width: 6em;
+    text-decoration: all;
+    text-align: center;
+    color: white;
+    background-color: gray;
+    padding: 0.2em 0.6em;
+    border-right: 2px solid white;
+}
+
+a:hover {background-color: gray;}
+
+li {display: inline;}
